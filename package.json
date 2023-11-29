@@ -1,0 +1,17 @@
+{
+  "name": "fakebook",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Hello there! This is my fake social network.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "keywords": ["javascript", "node.js", "modules", "object", "social network", "posts simulation"],
+  "author": "Wellington Suero",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
