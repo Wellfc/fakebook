@@ -21,6 +21,49 @@
         <script src="./assets/script/app.js" type="module"></script>
     </head>
     <body>
-    
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <a href="#">
+                        <h1>Fakebook</h1>
+                    </a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Friends</a></li>
+                        <li><a href="#">Pages</a></li>
+                        <li><a href="#">Groups</a></li>
+                        <li><a href="#">My ads</a></li>
+                        <li><a href="#">Settings</a></li>
+                    </ul>
+                </nav>
+                <div class="profile">
+                    <img src="./assets/img/profile-picture.jpg" alt="profile picture">
+                    <div class="user-data"></div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <section class="input-section">
+                    <div class="input-post">
+                        <textarea id="text" placeholder="What's new?"></textarea>
+                        <div>
+                            <input type="file" id="file" class="input-file" accept="image/*">
+                            <label for="file"><i class="fa fa-image"></i><span id="file-name"></span></label>
+                        </div>
+                        <div class="img-file">
+                            <p id="img-file"></p>
+                        </div>
+                        <div>
+                            <input type="button" value="Post" id="post-btn">
+                        </div>
+                    </div>
+                </section>
+                <section class="display-posts">
+                    <div class="new-posts"></div>
+                </section>
+            </div>
+        </main>
     </body>
 </html>
