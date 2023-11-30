@@ -38,32 +38,37 @@
                     </ul>
                 </nav>
                 <div class="profile">
-                    <img src="./assets/img/profile-picture.jpg" alt="profile picture">
-                    <div class="user-data"></div>
+                    <img src="./assets/img/profile-picture.jpg" alt="profile picture" class="profile-picture">
+                    <div class="account-info hidden">
+                    
+                    </div>
                 </div>
             </div>
         </header>
         <main>
-            <div class="container">
-                <section class="input-section">
-                    <div class="input-post">
-                        <textarea id="text" placeholder="What's new?"></textarea>
-                        <div>
-                            <input type="file" id="file" class="input-file" accept="image/*">
-                            <label for="file"><i class="fa fa-image"></i><span id="file-name"></span></label>
-                        </div>
-                        <div class="img-file">
-                            <p id="img-file"></p>
-                        </div>
-                        <div>
-                            <input type="button" value="Post" id="post-btn">
+            <section>
+                <div class="container flex">
+                    <div class="input-section">
+                        <textarea id="text" placeholder="What's new, Wellington?"></textarea>
+                        <div class="input-post">
+                            <div class="file-select">
+                                <input type="file" id="file" class="input-file" accept="image/*">
+                                <label for="file"><i class="fa fa-image"></i><span id="file-name"></span></label>
+                            </div>
+                            <div>
+                                <input type="button" value="Post" id="post-btn">
+                            </div>
                         </div>
                     </div>
-                </section>
-                <section class="display-posts">
-                    <div class="new-posts"></div>
-                </section>
-            </div>
+                </div>
+            </section>
+            <section>
+                <div class="display-posts flex">
+                    <div class="posts">
+                    
+                    </div>
+                </div>
+            </section>
         </main>
     </body>
 </html>
